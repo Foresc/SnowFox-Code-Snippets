@@ -1,0 +1,83 @@
+{
+    "A cpp file template": {
+        "prefix": "cpp_file_template",
+        "body": [
+            "/*",
+            " * @FileName: $TM_FILENAME",
+            " * @Author: Foresc",
+            " * @Date: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+            " */",
+            "",
+            "#include <iostream>",
+            "#include <algorithm>",
+            "",
+            "using namespace std;",
+            "",
+            "int main()",
+            "{",
+            "    $0",
+            "    system(\"pause\");",
+            "    return 0;",
+            "}"
+        ],
+        "description": "A cpp file template."
+    },
+    "Typedef struct node template": {
+        "prefix": "typedef_struct_node",
+        "body": [
+            "typedef struct {",
+            "    $0",
+            "}Node;"
+        ],
+        "description": "A struct template."
+    },
+    "Sort Camp Function template": {
+        "prefix": "sort_camp",
+        "body": [
+            "bool camp(Node x, Node y)",
+            "{",
+            "    return $0",
+            "}"
+        ],
+        "description": "A function template."
+    },
+    "CTimer Class template": {
+        "prefix": "ctimer_body",
+        "body": [
+            "#include <windows.h>",
+            "class CTimer",
+            "{",
+            "public:",
+            "    inline CTimer( void )",
+            "    {",
+            "        QueryPerformanceFrequency( (LARGE_INTEGER*)&m_nFreq );",
+            "        QueryPerformanceCounter( (LARGE_INTEGER*)&m_nStart );",
+            "    }",
+            "    inline double Reset( void )",
+            "    {",
+            "        __int64 nLast = m_nStart;",
+            "        QueryPerformanceCounter( (LARGE_INTEGER*)&m_nStart );",
+            "        return double( m_nStart - nLast ) / (double)m_nFreq;",
+            "    }",
+            "    inline double Now( void ) const",
+            "    {",
+            "        __int64 nCurCnt;",
+            "        QueryPerformanceCounter( (LARGE_INTEGER*)&nCurCnt );",
+            "        return double( nCurCnt - m_nStart ) / (double)m_nFreq;",
+            "    }",
+            "    inline double FinishTime( void ) const",
+            "    {",
+            "        __int64 nCurCnt;",
+            "        QueryPerformanceCounter( (LARGE_INTEGER*)&nCurCnt );",
+            "        double time = double( nCurCnt - m_nStart ) / (double)m_nFreq;",
+            "        cout << \"[Done]exited in \" << time << \" seconds\" << endl;",
+            "    }",
+            "",
+            "private:",
+            "    __int64 m_nFreq;",
+            "    __int64 m_nStart;",
+            "};"
+        ],
+        "description": "A CTimer template."
+    }
+}

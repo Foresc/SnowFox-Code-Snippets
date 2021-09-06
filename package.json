@@ -1,0 +1,35 @@
+{
+	"name": "Snowfox-Code-Snippets",
+	"displayName": "SnowFox's Code Snippets",
+	"description": "All snippets you need for Unity3D/C#/C++/C development",
+	"version": "0.2.6",
+	"author": {
+		"name": "SnowFox"
+	},
+	"publisher": "SnowFox",
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"contributes": {
+		"snippets": [
+			{
+				"language": "csharp",
+				"path": "./snippets/Unity.json"
+			},
+			{
+				"language": "c",
+				"path": "./snippets/c.json"
+			},
+			{
+				"language": "cpp",
+				"path": "./snippets/cpp.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "c111c16a-bf27-48c6-ba1b-d847f231a398",
+		"publisherId": "d62219f6-c08d-46e3-a69c-303db5e634b5",
+		"publisherDisplayName": "SnowFox",
+		"installedTimestamp": 1622541905295
+	}
+}
