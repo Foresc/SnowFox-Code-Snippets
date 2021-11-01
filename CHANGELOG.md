@@ -1,6 +1,12 @@
 # CHANGELOG
 All notable changes to this project will be documented in this file.
 
+##[0.2.8]
+## 2021 - 11 - 1
+### Added
+- C++
+	* Function Template : Add QuickRead Function. Call by quick_read.
+
 ##[0.2.7]
 ## 2021 - 10 - 21
 ### Changed
