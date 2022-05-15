@@ -2,7 +2,7 @@
 	"name": "Snowfox-Code-Snippets",
 	"displayName": "SnowFox's Code Snippets",
 	"description": "All snippets you need for Unity3D/C#/C++/C development",
-	"version": "0.2.8",
+	"version": "0.3.0",
 	"author": {
 		"name": "SnowFox"
 	},

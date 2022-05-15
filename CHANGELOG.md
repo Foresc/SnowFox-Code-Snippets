@@ -1,8 +1,19 @@
 # CHANGELOG
 All notable changes to this project will be documented in this file.
 
-##[0.2.8]
-## 2021 - 11 - 1
+## [0.3.0] 2022 - 05 - 15
+## Added
+- C++
+	* Function Template : Add Common Header for Algorithm. Contain following two line.
+		* #define ll long long 
+		* #define FOR(i, x, y) for (int i = x; i < y; ++i)
+
+## [0.2.9] 2022 - 04 - 01
+## Changed
+- C++
+	* Use a better version of function quick_read
+
+## [0.2.8] 2021 - 11 - 01
 ### Added
 - C++
 	* Function Template : Add QuickRead Function. Call by quick_read.

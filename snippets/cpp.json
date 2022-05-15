@@ -21,12 +21,24 @@
         ],
         "description": "A cpp file template."
     },
-    "Typedef struct node template": {
-        "prefix": "typedef_struct_node",
+    "Algorithm Header": {
+        "prefix": "Compitition_Header",
         "body": [
-            "typedef struct {",
+            "#define ll long long",
+            "#define FOR(i, x, y) for (int i = x; i < y; ++i)"
+        ],
+        "description": "Common Header in Algorithm compitition."
+    },
+    "Typedef struct compare node template": {
+        "prefix": "compare_node",
+        "body": [
+            "struct node{",
             "    $0",
-            "}Node;"
+            "    bool operator < (const node &x)",
+            "    {",
+            "        return $1;",
+            "    }",
+            "};"
         ],
         "description": "A struct template."
     },
@@ -43,10 +55,12 @@
     "QuickSort Funtion template": {
         "prefix": "quick_read",
         "body":[
-            "inline int read()",
+            "inline bool read(long long &x)",
             "{",
-            "    int x = 0, f = 1;",
+            "    long long q = 0, f = 1;",
             "    char c = getchar();",
+            "    if(c == EOF)",
+            "        return false;",
             "    while (c < '0' || c > '9')",
             "    {",
             "        if (c == '-')",
@@ -56,13 +70,15 @@
             "",
             "    while (c >= '0' && c <= '9')",
             "    {",
-            "        x = (x << 3) + (x << 1) + (c - 48);",
+            "        q = (q << 3) + (q << 1) + (c ^ 48);",
             "        c = getchar();",
             "    }",
             "",
-            "    return x * f;",
+            "    x = q * f;",
+            "    return true;",
             "}"
-        ]
+        ],
+        "description": "A QuickRead template."
     },
     "CTimer Class template": {
         "prefix": "ctimer_body",
