@@ -9,7 +9,6 @@
             " */",
             "",
             "#include <iostream>",
-            "#include <algorithm>",
             "",
             "using namespace std;",
             "",
@@ -22,12 +21,38 @@
         "description": "A cpp file template."
     },
     "Algorithm Header": {
-        "prefix": "Compitition_Header",
+        "prefix": "algorithm_compitition_file_template",
         "body": [
+            "/*",
+            " * @FileName: $TM_FILENAME",
+            " * @Author: Foresc",
+            " * @Date: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+            " */",
+            "",
+            "#include <iostream>",
+            "#include <algorithm>",
             "#define ll long long",
-            "#define FOR(i, x, y) for (int i = x; i < y; ++i)"
+            "#define FOR(i, x, y) for (int i = x; i < y; ++i)",
+            "",
+            "using namespace std;",
+            "",
+            "void solve()",
+            "{",
+            "    $0",
+            "}",
+            "",
+            "int main()",
+            "{",
+            "    int T = 0;",
+            "    cin >> T;",
+            "    while(T--)",
+            "    {",
+            "        solve();",
+            "    }",
+            "    return 0;",
+            "}"
         ],
-        "description": "Common Header in Algorithm compitition."
+        "description": "File template in algorithm compitition."
     },
     "Typedef struct compare node template": {
         "prefix": "compare_node",

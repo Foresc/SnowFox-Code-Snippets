@@ -1,6 +1,12 @@
 # CHANGELOG
 All notable changes to this project will be documented in this file.
 
+## [0.3.1] 2022 - 05 - 20
+## Changed
+- C++
+	* File Template : Change Common Header to Algorithm Compitition File Template. 
+	* Call by algorithm_compitition_file_template
+
 ## [0.3.0] 2022 - 05 - 15
 ## Added
 - C++
@@ -18,22 +24,19 @@ All notable changes to this project will be documented in this file.
 - C++
 	* Function Template : Add QuickRead Function. Call by quick_read.
 
-##[0.2.7]
-## 2021 - 10 - 21
+## [0.2.7] 2021 - 10 - 21
 ### Changed
--C++
+- C++
 	* File Template : Delete System("pause");
--C
+- C
 	* File Template : Delete System("pause");
 
-## [0.2.4]
-## 2021 - 06 - 13
+## [0.2.4] 2021 - 06 - 13
 ### Added
 - C++
 	* CTimer Class : A RunTime Counter.（include windows.h first）
 
-## [0.2.1]
-## 2021 - 05 - 15  
+## [0.2.1] 2021 - 05 - 15  
 ### Added
 - C++
 	* Function Sort's Camp(); Use sort_camp_function.
