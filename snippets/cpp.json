@@ -43,7 +43,7 @@
             "",
             "int main()",
             "{",
-            "    int T = 0;",
+            "    int T = 1;",
             "    cin >> T;",
             "    while(T--)",
             "    {",

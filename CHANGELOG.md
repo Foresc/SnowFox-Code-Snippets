@@ -1,6 +1,9 @@
 # CHANGELOG
 All notable changes to this project will be documented in this file.
 
+## [0.3.1] 2022 - 05 - 21
+- Bugfixed
+
 ## [0.3.1] 2022 - 05 - 20
 ## Changed
 - C++
@@ -11,8 +14,8 @@ All notable changes to this project will be documented in this file.
 ## Added
 - C++
 	* Function Template : Add Common Header for Algorithm. Contain following two line.
-		* #define ll long long 
-		* #define FOR(i, x, y) for (int i = x; i < y; ++i)
+		- #define ll long long 
+		- #define FOR(i, x, y) for (int i = x; i < y; ++i)
 
 ## [0.2.9] 2022 - 04 - 01
 ## Changed
