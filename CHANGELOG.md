@@ -1,7 +1,18 @@
 # CHANGELOG
 All notable changes to this project will be documented in this file.
 
-## [0.3.1] 2022 - 05 - 21
+## [0.3.3] 2022 - 07 - 18
+### Added
+- C++
+	* GCC Optimize : Call by "gcc_optimize"
+	* OIcontest Header : Call by "OIcontest_header"
+
+### Changed
+- C++
+	* OIcontest File Template : Call by "OIcontest_file_template" now.
+	* 
+
+## [0.3.2] 2022 - 05 - 21
 - Bugfixed
 
 ## [0.3.1] 2022 - 05 - 20

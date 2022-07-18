@@ -20,8 +20,38 @@
         ],
         "description": "A cpp file template."
     },
-    "Algorithm Header": {
-        "prefix": "algorithm_compitition_file_template",
+    "GCC Optimize": {
+        "prefix" : "gcc_optimize",
+        "body" : [
+            "#pragma GCC optimize (\"O3\")",
+            "#pragma GCC target (\"sse4\")",
+            "#pragma GCC optimize(\"unroll-loops\")"
+        ],
+        "description" : "GCC-optimize."
+    },
+    "OIcontest Header" :{
+        "prefix" : "OIcontest_header",
+        "body" : [
+            "include <cmath>",
+            "include <vector>",
+            "include <string>",
+            "include <vector>",
+            "include <queue>",
+            "include <map>",
+            "#define ll long long",
+            "#define ull unsinged long long",
+            "typedef pair<int,int > PII;", 
+            "typedef pair<double,int> PDI;",
+            "const int MOD=1e9+7;",
+            "const int INF=0x3f3f3f;",
+            "const double PI = 3.14159265358979323846;",
+            "int dx[4]={-1,0,1,0};",
+            "int dy[4]={0,1,0,-1};"
+        ],
+        "description" : "Header for OIcontest."
+    },
+    "OIcontest File Template": {
+        "prefix": "OIcontest_file_template",
         "body": [
             "/*",
             " * @FileName: $TM_FILENAME",
@@ -31,8 +61,6 @@
             "",
             "#include <iostream>",
             "#include <algorithm>",
-            "#define ll long long",
-            "#define FOR(i, x, y) for (int i = x; i < y; ++i)",
             "",
             "using namespace std;",
             "",
@@ -43,8 +71,11 @@
             "",
             "int main()",
             "{",
+            "    ios::sync_with_stdio(false);",
+            "    cin.tie(0);",
+            "    // cout.tie(0);",
             "    int T = 1;",
-            "    cin >> T;",
+            "    // cin >> T;",
             "    while(T--)",
             "    {",
             "        solve();",
@@ -53,19 +84,6 @@
             "}"
         ],
         "description": "File template in algorithm compitition."
-    },
-    "Typedef struct compare node template": {
-        "prefix": "compare_node",
-        "body": [
-            "struct node{",
-            "    $0",
-            "    bool operator < (const node &x)",
-            "    {",
-            "        return $1;",
-            "    }",
-            "};"
-        ],
-        "description": "A struct template."
     },
     "Sort Camp Function template": {
         "prefix": "sort_camp",
