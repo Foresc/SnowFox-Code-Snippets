@@ -1,6 +1,9 @@
 # CHANGELOG
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] 2022 - 08 - 02
+- Bugfixed
+
 ## [1.0.0] 2022 - 07 - 19
 ### Added
 - C++
