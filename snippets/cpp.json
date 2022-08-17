@@ -6,7 +6,9 @@
             " * @FileName: $TM_FILENAME",
             " * @Author: Foresc",
             " * @Date: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
-            " */"
+            " */",
+            "",
+            "$0"
         ],
         "description" : "Author information."
     },
@@ -30,7 +32,8 @@
         "body" : [
             "#pragma GCC optimize (\"O3\")",
             "#pragma GCC target (\"sse4\")",
-            "#pragma GCC optimize(\"unroll-loops\")"
+            "#pragma GCC optimize(\"unroll-loops\")",
+            ""
         ],
         "description" : "GCC-optimize."
     },
@@ -45,13 +48,14 @@
             "#include <map>",
             "#define ll long long",
             "#define ull unsinged long long",
-            "typedef pair<int,int > PII;", 
-            "typedef pair<double,int> PDI;",
+            "typedef std::pair<int,int> PII;", 
+            "typedef std::pair<double, int> PDI;",
             "const int MOD=1e9+7;",
-            "const int INF=0x3f3f3f;",
+            "const int INF=0x3f3f3f3f;",
             "const double PI = 3.14159265358979323846;",
-            "int dx[4]={-1,0,1,0};",
-            "int dy[4]={0,1,0,-1};"
+            "int dx[4]={-1, 0, 1, 0};",
+            "int dy[4]={0, 1, 0, -1};",
+            ""
         ],
         "description" : "Header for OIcontest."
     },
@@ -70,9 +74,11 @@
             "",
             "int main()",
             "{",
+            "#ifdef ONLINE_JUDGE",
             "    ios::sync_with_stdio(false);",
             "    cin.tie(0);",
             "    // cout.tie(0);",
+            "#endif",
             "    int T = 1;",
             "    // cin >> T;",
             "    while(T--)",
@@ -83,16 +89,6 @@
             "}"
         ],
         "description": "File template in algorithm compitition."
-    },
-    "Sort Camp Function template": {
-        "prefix": "sort_camp",
-        "body": [
-            "bool camp(Node x, Node y)",
-            "{",
-            "    return $0",
-            "}"
-        ],
-        "description": "A function template."
     },
     "QuickSort Funtion template": {
         "prefix": "quick_read",
