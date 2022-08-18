@@ -7,7 +7,6 @@
             " * @Author: Foresc",
             " * @Date: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
             " */",
-            "",
             "$0"
         ],
         "description" : "Author information."
@@ -40,12 +39,20 @@
     "OIcontest Header" :{
         "prefix" : "OIcontest_header",
         "body" : [
+            "#ifndef _GLIBCXX_NO_ASSERT",
+            "#include <cassert>",
+            "#endif",
             "#include <cmath>",
-            "#include <vector>",
-            "#include <string>",
+            "#include <cstdlib>",
+            "#include <cstring>",
+            "#include <fstream>",
             "#include <vector>",
             "#include <queue>",
             "#include <map>",
+            "#include <set>",
+            "#incldue <unordered_map>",
+            "#include <unordered_set>",
+            "#include <bitset>",
             "#define ll long long",
             "#define ull unsinged long long",
             "typedef std::pair<int,int> PII;", 
