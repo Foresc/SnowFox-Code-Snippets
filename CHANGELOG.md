@@ -1,6 +1,10 @@
 # CHANGELOG
 All notable changes to this project will be documented in this file.
 
+## [1.0.4] 2022 - 08 - 20
+- C++
+	* OIcontest Header : Added definition of Max(x, y) and Min(x, y).
+
 ## [1.0.3] 2022 - 08 - 18
 - Bugfixed
 
