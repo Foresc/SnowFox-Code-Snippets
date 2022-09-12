@@ -68,6 +68,17 @@
         ],
         "description" : "Header for OIcontest."
     },
+    "Fast IO": {
+        "prefix" : "io_sync_disable",
+        "body": [
+            "#ifdef ONLINE_JUDGE",
+            "    ios::sync_with_stdio(false);",
+            "    cin.tie(0);",
+            "    cout.tie(0);",
+            "#endif"
+        ],
+        "description" : "Disable cin&cout Sync"
+    },
     "OIcontest File Template": {
         "prefix": "OIcontest_file_template",
         "body": [
@@ -83,11 +94,6 @@
             "",
             "int main()",
             "{",
-            "#ifdef ONLINE_JUDGE",
-            "    ios::sync_with_stdio(false);",
-            "    cin.tie(0);",
-            "    // cout.tie(0);",
-            "#endif",
             "    int T = 1;",
             "    // cin >> T;",
             "    while(T--)",

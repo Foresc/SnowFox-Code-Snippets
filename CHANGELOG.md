@@ -1,6 +1,11 @@
 # CHANGELOG
 All notable changes to this project will be documented in this file.
 
+## [1.0.5] 2022 - 09 - 12
+### Added
+- C++
+	* Disable cin&cout Sync : Call by io_sync_disable.
+
 ## [1.0.4] 2022 - 08 - 20
 - C++
 	* OIcontest Header : Added definition of Max(x, y) and Min(x, y).
