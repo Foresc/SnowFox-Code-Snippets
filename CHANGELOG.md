@@ -1,11 +1,10 @@
 # CHANGELOG
 All notable changes to this project will be documented in this file.
 
-## [1.2.0] 2022 - 09 - 16
-- Major Update : This plugin will split into two, this one will focus on C/C++ code snippets in OI Contest, other will focus on snippets for Unity
-
 ## [1.1.0] 2022 - 09 - 15
-- Bugfixed
+### Changed
+- Unity
+	* Delete All private those don't needed.
 
 ## [1.0.5] 2022 - 09 - 12
 ### Added

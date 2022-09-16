@@ -1,3 +1,3 @@
 # SnowFox_Code_Snippets
-## Code Snippets for OI/XCPC
+## All snippets you need for Unity3D/C#/C++/C development
 

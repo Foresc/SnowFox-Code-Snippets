@@ -1,8 +1,8 @@
 {
 	"name": "Snowfox-Code-Snippets",
 	"displayName": "SnowFox's Code Snippets",
-	"description": "Code Snippets for OI/XCPC",
-	"version": "1.2.0",
+	"description": "All snippets you need for Unity3D/C#/C++/C development",
+	"version": "1.1.0",
 	"author": {
 		"name": "SnowFox"
 	},
@@ -12,6 +12,10 @@
 	},
 	"contributes": {
 		"snippets": [
+			{
+				"language": "csharp",
+				"path": "./snippets/Unity.json"
+			},
 			{
 				"language": "c",
 				"path": "./snippets/c.json"
