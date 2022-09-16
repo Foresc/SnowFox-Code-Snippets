@@ -1,7 +1,13 @@
 # CHANGELOG
 All notable changes to this project will be documented in this file.
 
-## [1.1.0] 2022 - 09 - 15
+## [1.2.1] 2022 - 09 -16
+- Bigfixed
+
+## [1.2.0] 2022 - 09 - 15
+- Bugfixed
+
+## [1.1.0] 2022 - 09 - 14
 ### Changed
 - Unity
 	* Delete All private those don't needed.
